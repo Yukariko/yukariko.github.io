@@ -1,21 +1,34 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Site settings
-title: yukariko.github.io
-email: rkdals7979@naver.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yukariko.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  yukariko
-
-# Build settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
 markdown: kramdown
+disqus: yukariko
+title: yukariko
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: yukariko
+
+description: yukariko's blog
+author:
+  name: yukariko
+  email: rkdals7979@naver.com
+  github: yukariko
+  bio: It's fun!
+  email_md5: f42d8e560adb6bdbe23ff938b8da8da2
+
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
