@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C++11 move semantics benchnmark
+title: C++11 move semantics benchmark
 categories: [C++]
 tags: [C++11]
 fullview: false
