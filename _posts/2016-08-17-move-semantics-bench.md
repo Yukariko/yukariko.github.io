@@ -1,8 +1,8 @@
 ---
 layout: post
 title: C++11 move semantics benchmark
-categories: [C++]
-tags: [C++11]
+categories: [Cpp]
+tags: [Cpp11]
 fullview: false
 comments: true
 ---
