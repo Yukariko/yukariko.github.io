@@ -2,7 +2,7 @@
 layout: post
 title: 디자인 패턴 - 추상 팩토리(Abstract Factory)
 categories: [DesignPattern]
-tags: [DesignPattern, AbstractFactory]
+tags: [DesignPattern, AbstractFactory, UML]
 fullview: false
 comments: true
 ---
