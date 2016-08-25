@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 디자인패턴 - 팩토리 메소드(Factory Method)
+title: 디자인 패턴 - 팩토리 메소드(Factory Method)
 categories: [DesignPattern]
 tags: [DesignPattern, FactoryMethod, UML]
 fullview: false
